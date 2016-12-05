@@ -1,0 +1,193 @@
+header {
+  height: 85px;
+  background-color: black;
+  overflow: auto;
+}
+
+ul {
+  margin: 0 auto;
+  text-align: right;
+}
+
+.nav-links {
+  display: inline;
+  /*float: left;*/
+  padding: 5px;
+  margin: 0 1% 0 0;
+  /*width: 45%;*/
+  text-align: right;
+}
+
+.section-0 {
+  height: 50px;
+  background-color: black;
+  color: white;
+  overflow: auto;
+
+}
+
+.section-1 {
+  height: 100px;
+  background-color: #B2B2B2;
+  border-top: 6px solid yellow;
+  overflow: auto;
+}
+
+.section-2 {
+  height: 450px;
+  background-image: url("../images/coworking.jpg");
+  background-color: red;
+  background-size: cover;
+}
+
+.section-3 {
+  height: 350px;
+  background-color: white;
+  width: 100%;
+  display: block;
+  overflow: auto;
+  margin: 20px auto;
+}
+
+.first-list li:nth-child(-n+2) {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.taste {
+  color: #9EA2A5;
+  text-decoration: line-through;
+}
+
+.are {
+  border-bottom: 4px solid yellow;
+}
+
+.meet-your-match {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  box-shadow: 1px 1px 1px 1px gray;
+  float: left;
+  width: 35%;
+  margin: 20px 10% 5px 60%;
+  height: 400px;
+  overflow: auto;
+}
+
+.box-body {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.9em;
+  margin: 4% 8% 8% 8%;
+}
+
+.yellow-button {
+  text-align: center;
+  background-color: yellow;
+  padding: 8px 32px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  border-bottom: 2px solid #d1d100;
+  display: block;
+  margin: 0 auto 30px auto;
+  letter-spacing: 1px;
+  transition-duration: 0.4s;
+}
+
+.yellow-button:hover {
+  background-color: white;
+  color: yellow;
+}
+
+.gray-button {
+  text-align: center;
+  background-color: #B2B2B2;
+  padding: 8px 32px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  border-bottom: 2px solid gray;
+  display: block;
+  margin: 0 auto 30px auto;
+  transition-duration: 0.4s;
+}
+
+.gray-button:hover {
+  background-color: white;
+  color: #B2B2B2;
+}
+
+.white-box {
+  width: 33%;
+  float: left;
+  overflow: auto;
+}
+
+.white-box-border {
+  width: 33%;
+  float: left;
+  overflow: auto;
+  border-right: 1px solid #B2B2B2;
+  border-left: 1px solid #B2B2B2;
+}
+
+footer {
+  background-color: black;
+  height: 50px;
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+  padding: 30px 0 0 10px;
+  overflow: auto;
+}
+
+h1 {
+  color: yellow;
+  margin: 25px 0 1% 2%;
+  float: left;
+  font-family: 'Merriweather', serif;
+  /*padding: 30px 0 1px 5%;*/
+}
+
+h2 {
+  font-style: italic;
+  font-size: 28px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  font-family: sans-serif;
+  margin: 8% 8% 4% 8%;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s;
+}
+
+a:hover {
+    color: blue;
+}
+
+.logo-link:hover {
+  color: inherit;
+}
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
